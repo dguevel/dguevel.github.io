@@ -29,6 +29,7 @@
   </header>
 
   <nav class="toc" aria-label="Section navigation">
+    <a href="#summary">Summary</a>
     <a href="#education">Education</a>
     <a href="#experience">Experience</a>
     <a href="#skills">Skills</a>
@@ -41,6 +42,11 @@
   </nav>
 
   <main>
+
+    <section id="summary">
+      <h2>Summary</h2>
+      <p>David Guevel is a machine learning engineer working on perception and embodied AI for autonomous vehicles, with a research background in high-energy astrophysics. He earned a PhD in Physics from the University of Wisconsin–Madison, where he searched for the sources of astrophysical neutrinos with the IceCube Neutrino Observatory and studied TeV gamma-ray sources with the Swift X-ray telescope, followed by a postdoctoral appointment applying deep learning to gamma-ray telescope data. He now applies that same rigor in statistics, Monte Carlo methods, and maximum likelihood analysis to modern computer vision and robotics problems in the automotive industry, building 3D scene reconstruction, vision-language-action models, and real-time mapping systems at Volkswagen and General Motors.</p>
+    </section>
 
     <section id="education">
       <h2>Education</h2>
@@ -94,30 +100,31 @@
 
       <div class="entry">
         <div class="entry-head">
-          <h3>Postdoctoral Scholar</h3>
+          <h3>Postdoctoral Researcher</h3>
           <span class="date">Sep. 2025 – Mar. 2026</span>
         </div>
         <p class="org">Michigan Technological University — Houghton, MI (Remote)</p>
         <ul>
-          <li>Developed an energy-resolved image denoising autoencoder based on graph neural networks for gamma-ray observations from the HAWC observatory, including U-Net-based multi-channel image segmentation.</li>
-          <li>Performed physics-based Monte Carlo simulation of the HAWC gamma-ray telescope to generate training data for the image denoising model.</li>
-          <li>Maximum likelihood analysis of astrophysical gamma-ray observations from HAWC, resulting in a publication in progress.</li>
+          <li>Performed multi-channel image segmentation using U-Net based on graph neural networks.</li>
+          <li>Developed an image denoising autoencoder for telescope image restoration.</li>
+          <li>Physics-based Monte Carlo simulation of gamma-ray telescope for training image denoising model.</li>
+          <li>Maximum likelihood analysis of astrophysical observations resulting in a publication in progress.</li>
         </ul>
       </div>
 
       <div class="entry">
         <div class="entry-head">
-          <h3>Graduate Student Researcher</h3>
-          <span class="date">Jan. 2020 – Aug. 2025</span>
+          <h3>Graduate Researcher</h3>
+          <span class="date">Sep. 2020 – Sep. 2025</span>
         </div>
         <p class="org">Wisconsin IceCube Particle Astrophysics Center — Madison, WI</p>
         <ul>
-          <li>Proposed, developed, and published a clustering analysis of IceCube neutrinos with infrared galaxies from WISE and 2MASS, using classical and ML methods (autocorrelation, cross-correlation, Gaussian mixture models, k-means, hierarchical clustering) to constrain neutrino source populations.</li>
-          <li>Conducted X-ray observations of TeV γ-ray sources with the Swift observatory to search for cosmic ray accelerators.</li>
-          <li>Performed maximum likelihood analysis of particle physics data and Monte Carlo simulation of IceCube events using Python, C++, and parallel computing with HTCondor and cloud computing facilities.</li>
-          <li>Improved astrophysical parameter inference by 15% and measured galaxy properties from telescope observations using XGBoost for regression.</li>
-          <li>Contributed to Git-tracked software packages, using CI/CD techniques, used by the 350 members of the IceCube Neutrino Observatory Collaboration; served as a designated code quality and reproducibility reviewer.</li>
-          <li>Published three journal articles as lead or corresponding author; awarded a competitive NASA Swift Guest Investigator proposal as Science PI (see Grants below).</li>
+          <li>Proposed, developed, and published a clustering analysis using Python and C++ using classical and ML clustering algorithms including autocorrelation, cross-correlation, Gaussian mixture models, k-means, and hierarchical clustering.</li>
+          <li>Reviewed pull requests over GitHub as a code quality and reproducibility reviewer.</li>
+          <li>Contributed to Git tracked software packages hosted on GitHub used by 350 scientists using CI/CD techniques.</li>
+          <li>Maximum likelihood analysis of particle physics data with Python and C++ using cloud computing facilities.</li>
+          <li>Improved astrophysical parameter inference by 15% using XGBoost for regression.</li>
+          <li>Three journal articles published or submitted; submitted and received competitive NASA proposal worth $45k as lead proposer.</li>
         </ul>
       </div>
 
@@ -136,18 +143,16 @@
 
       <div class="entry">
         <div class="entry-head">
-          <h3>REXIS Instrument Scientist &amp; Software Engineer</h3>
+          <h3>Software Engineer</h3>
           <span class="date">Oct. 2017 – June 2020</span>
         </div>
-        <p class="org">Center for Astrophysics | Harvard &amp; Smithsonian — Cambridge, MA</p>
+        <p class="org">Harvard University — Cambridge, MA</p>
         <ul>
-          <li>Developed real-time spacecraft telemetry decoding and processing software pipeline from TCP stream to high-level science data products using Python and C++.</li>
-          <li>Designed and deployed an on-premises MySQL database for high-level science data products, and developed a dashboard for real-time data quality and telescope health monitoring.</li>
-          <li>In-flight X-ray telescope effective area calibration using the Crab Nebula as a standard candle.</li>
-          <li>Laboratory calibration of flight-spare CCD energy resolution using X-ray line sources to validate the in-flight calibration.</li>
-          <li>Developed test bench automation software in Python to reduce testing time of flight command sequence validation, and a data reduction pipeline in Python and C for REXIS science and housekeeping data.</li>
-          <li>GEANT4 simulations to estimate the cosmic-ray background contribution to REXIS X-ray observations; maintained and performed leak detection on the vacuum test chamber.</li>
-          <li>Statistical analysis of astrophysics data using cloud computing resources with Slurm; debugged embedded C code on a virtual micro-controller hosted on a flight-spare FPGA.</li>
+          <li>Developed real-time spacecraft telemetry decoding and processing software pipeline from TCP stream to high level science data products using Python and C++.</li>
+          <li>Designed and deployed an on-premises MySQL database for high-level science data products.</li>
+          <li>Developed a dashboard for real-time data quality and telescope health monitoring.</li>
+          <li>Statistical analysis of astrophysics data using cloud computing resources with Slurm.</li>
+          <li>Debugged embedded C code on a virtual micro-controller hosted on a flight-spare FPGA.</li>
         </ul>
       </div>
 
@@ -288,15 +293,15 @@
     <section id="service">
       <h2>Service &amp; Outreach</h2>
       <ul class="service-list">
-        <li><span>HAWC Collaboration Member</span><span class="date">2024 –</span></li>
-        <li><span>Code Reproducibility Reviewer, IceCube Collaboration</span><span class="date">2024 –</span></li>
-        <li><span>IceCube Collaboration Member</span><span class="date">2022 –</span></li>
-        <li><span>Organizer, WIPAC Graduate Student and Postdoc Weekly Meeting</span><span class="date">2021 – 2023</span></li>
-        <li><span>Peer Mentor, UW Madison Graduate Peer Mentorship Program</span><span class="date">2021 – 2023</span></li>
-        <li><span>Volunteer, Various WIPAC Outreach Events</span><span class="date">2021 – 2024</span></li>
-        <li><span>Professional Development Chair, Physics Graduate Student Council</span><span class="date">2021 – 2022</span></li>
-        <li><span>President, UCSB Society of Physics Students</span><span class="date">2015 – 2017</span></li>
-        <li><span>Volunteer, Santa Barbara Astronomy on Tap</span><span class="date">2013 – 2017</span></li>
+        <li><span>HAWC Collaboration Member</span> <span class="date">2024 – 2026</span></li>
+        <li><span>Code Reproducibility Reviewer, IceCube Collaboration</span> <span class="date">2024 – 2026</span></li>
+        <li><span>IceCube Collaboration Member</span> <span class="date">2022 – 2026</span></li>
+        <li><span>Organizer, WIPAC Graduate Student and Postdoc Weekly Meeting</span> <span class="date">2021 – 2023</span></li>
+        <li><span>Peer Mentor, UW Madison Graduate Peer Mentorship Program</span> <span class="date">2021 – 2023</span></li>
+        <li><span>Volunteer, Various WIPAC Outreach Events</span> <span class="date">2021 – 2024</span></li>
+        <li><span>Professional Development Chair, Physics Graduate Student Council</span> <span class="date">2021 – 2022</span></li>
+        <li><span>President, UCSB Society of Physics Students</span> <span class="date">2015 – 2017</span></li>
+        <li><span>Volunteer, Santa Barbara Astronomy on Tap</span> <span class="date">2013 – 2017</span></li>
       </ul>
     </section>
 
